@@ -40,6 +40,11 @@ nav li a:hover {
   text-align: center;
 }
 
+.main_section h1 {
+  font-size: 35px;
+  letter-spacing: 1px;
+}
+
 .products {
   background-image: url("../img/curve.png");
   background-size: cover;
@@ -57,6 +62,7 @@ nav li a:hover {
   box-shadow: 0 0 2px #c1bcbc;
   text-align: center;
   font-family: "Roboto", sans-serif;
+  border-radius: 3px;
 }
 .img_content {
   text-align: center;
@@ -80,6 +86,7 @@ nav li a:hover {
   padding: 10%;
   display: flex;
   font-family: "Roboto", sans-serif;
+  background-color: white;
 }
 
 .beneficio {
@@ -100,6 +107,7 @@ nav li a:hover {
   display: flex;
   padding: 5%;
   font-family: "Roboto", sans-serif;
+  background-color: white;
 }
 
 h2.mention_title {
@@ -116,13 +124,171 @@ h2.mention_title {
   padding: 10px;
 }
 
+.modulo_pago {
+  background-color: white;
+  box-shadow: 0 0 2px #c1bcbc;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+}
+
+.modulo_pago_images {
+  max-width: 100px;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
+
+.modulo_pago input {
+  margin-top: 10px;
+  width: 100%;
+  height: 35px;
+  border-radius: 2px;
+  border: 1px solid black;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+}
+
 /* ------------------------------------------- Footer */
 footer {
-  display: flex;
-  justify-content: space-between;
   font-size: 14px;
-  background-color: white;
+  background-color: #eeeeee;
   padding: 10px;
   color: black;
   font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Valor por columna = 8.3333333333 */
+
+.row {
+  display: flex;
+}
+
+.col-1 {
+  width: 8.3333333333%;
+}
+.col-2 {
+  width: 16.6666666666%;
+}
+.col-3 {
+  width: 24.9999999999%;
+}
+.col-4 {
+  width: 33.3333333332%;
+}
+.col-5 {
+  width: 41.6666666665%;
+}
+.col-6 {
+  width: 49.9999999998%;
+}
+.col-7 {
+  width: 58.3333333331%;
+}
+.col-8 {
+  width: 66.6666666664%;
+}
+.col-9 {
+  width: 74.9999999997%;
+}
+.col-10 {
+  width: 83.333333333%;
+}
+.col-11 {
+  width: 91.6666666663%;
+}
+.col-12 {
+  width: 100%;
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12 {
+  padding: 10px;
+}
+.col-1 img,
+.col-2 img,
+.col-3 img,
+.col-4 img,
+.col-5 img,
+.col-6 img,
+.col-7 img,
+.col-8 img,
+.col-9 img,
+.col-10 img,
+.col-11 img,
+.col-12 img {
+  width: 100%;
+}
+
+.no-desk {
+  display: none;
+}
+
+/* Query */
+
+@media only screen and (max-width: 768px) {
+  .products {
+    display: inherit;
+    height: auto;
+  }
+  .product {
+    margin-top: auto;
+  }
+  .main_section {
+    padding: 4%;
+  }
+  .mentions {
+    display: inherit;
+    height: auto;
+  }
+  .beneficios {
+    display: inherit;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 30px;
+  }
+  .no-mobile {
+    display: none;
+  }
+  .no-desk {
+    display: initial;
+  }
+  .row {
+    display: inline;
+    padding: 10px;
+  }
+  .col-1,
+  .col-2,
+  .col-3,
+  .col-4,
+  .col-5,
+  .col-6,
+  .col-7,
+  .col-8,
+  .col-9,
+  .col-10,
+  .col-11,
+  .col-12 {
+    width: 100%;
+    padding: 0px;
+  }
 }
