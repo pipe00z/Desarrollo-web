@@ -3,7 +3,7 @@ body {
   padding: 0;
   margin: 0;
   font-size: 14px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Abril Fatface", cursive;
   background-color: #53dd6c;
 }
 nav {
@@ -11,16 +11,19 @@ nav {
   background: white;
   color: white;
   padding: 10px;
+  padding-right: 20px;
   justify-content: space-between;
   align-items: center;
   height: 60px;
 }
+
 nav ul {
   display: flex;
 }
 nav li {
   padding-left: 15px;
   list-style: none;
+  font-family: "Roboto", sans-serif;
 }
 nav li a {
   color: black;
@@ -33,13 +36,12 @@ nav li a:hover {
 /* Section */
 
 .main_section {
-  padding: 15%;
+  padding: 7%;
   text-align: center;
 }
 
 .products {
   background-image: url("../img/curve.png");
-  height: 200px;
   background-size: cover;
   background-position: center top;
   padding: 15%;
@@ -53,6 +55,8 @@ nav li a:hover {
   background-color: white;
   padding: 15px;
   box-shadow: 0 0 2px #c1bcbc;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
 }
 .img_content {
   text-align: center;
@@ -70,4 +74,55 @@ nav li a:hover {
 }
 .main_button:hover {
   background-color: #02d629;
+}
+/* Beneficios */
+.beneficios {
+  padding: 10%;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+}
+
+.beneficio {
+  text-align: center;
+  padding: 20px;
+}
+
+.beneficio img {
+  max-height: 100px;
+}
+
+.text_beneficio {
+  text-align: justify;
+}
+
+/* Mentions */
+.mentions {
+  display: flex;
+  padding: 5%;
+  font-family: "Roboto", sans-serif;
+}
+
+h2.mention_title {
+  text-align: center;
+}
+.mention {
+  padding: 10px;
+}
+.content_mention {
+  display: flex;
+  align-items: center;
+}
+.mention .text {
+  padding: 10px;
+}
+
+/* ------------------------------------------- Footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  background-color: white;
+  padding: 10px;
+  color: black;
+  font-family: "Roboto", sans-serif;
 }
