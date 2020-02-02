@@ -4,7 +4,7 @@ body {
   margin: 0;
   font-size: 14px;
   font-family: "Abril Fatface", cursive;
-  background-color: #53dd6c;
+  background-color: #a35146;
 }
 nav {
   display: flex;
@@ -30,7 +30,7 @@ nav li a {
   text-decoration: none;
 }
 nav li a:hover {
-  color: #53dd6c;
+  color: #810609;
 }
 
 /* Section */
@@ -69,7 +69,7 @@ nav li a:hover {
 }
 
 .main_button {
-  background-color: #02d629;
+  background-color: #810609;
   width: 100%;
   padding: 10px;
   font-size: 12px;
@@ -79,7 +79,7 @@ nav li a:hover {
   border-radius: 3px;
 }
 .main_button:hover {
-  background-color: #53dd6c;
+  background-color: #a35146;
 }
 /* Beneficios */
 .beneficios {
