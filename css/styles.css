@@ -5,6 +5,9 @@ body {
   font-size: 14px;
   font-family: "Abril Fatface", cursive;
   background-color: #a35146;
+  background-image: url("../img/back.jpg");
+  background-position: top;
+  background-size: cover;
 }
 nav {
   display: flex;
@@ -41,8 +44,9 @@ nav li a:hover {
 }
 
 .main_section h1 {
-  font-size: 35px;
+  font-size: 40px;
   letter-spacing: 1px;
+  color: white;
 }
 
 .products {
@@ -112,6 +116,8 @@ nav li a:hover {
 
 h2.mention_title {
   text-align: center;
+  font-size: 25px;
+  color: white;
 }
 .mention {
   padding: 10px;
