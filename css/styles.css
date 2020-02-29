@@ -4,10 +4,8 @@ body {
   margin: 0;
   font-size: 14px;
   font-family: "Abril Fatface", cursive;
-  background-color: #a35146;
   background-image: url("../img/back.jpg");
   background-position: top;
-  background-size: cover;
 }
 nav {
   display: flex;
