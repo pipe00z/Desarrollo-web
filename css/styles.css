@@ -45,6 +45,8 @@ nav li a:hover {
   font-size: 40px;
   letter-spacing: 1px;
   color: white;
+  background-color: black;
+  display: unset;
 }
 
 .products {
@@ -85,7 +87,7 @@ nav li a:hover {
 }
 /* Beneficios */
 .beneficios {
-  padding: 10%;
+  padding: 8%;
   display: flex;
   font-family: "Roboto", sans-serif;
   background-color: white;
@@ -105,17 +107,24 @@ nav li a:hover {
 }
 
 /* Mentions */
-.mentions {
+.mentions,
+.mentions_2 {
   display: flex;
   padding: 5%;
   font-family: "Roboto", sans-serif;
   background-color: white;
 }
 
+.mentions_2 {
+  padding-top: 0;
+}
+
 h2.mention_title {
   text-align: center;
-  font-size: 25px;
+  font-size: 30px;
   color: white;
+  background-color: black;
+  margin: 0;
 }
 .mention {
   padding: 10px;
